@@ -101,7 +101,6 @@ var numOfMonths = finances.length;
 var averageProfit = totalProfit / numOfMonths;
 
 // adding all information to console log
-
 console.log("Financial Analysis");
 console.log("-------------------");
 console.log("Total Months: " + numOfMonths);
