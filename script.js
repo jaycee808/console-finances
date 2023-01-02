@@ -100,3 +100,8 @@ console.log(totalProfit);
 var numOfMonths = finances.length;
 
 console.log(numOfMonths);
+
+// variable to calculate average profit made
+var averageProfit = totalProfit / numOfMonths;
+
+console.log(averageProfit.toFixed(2));
