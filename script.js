@@ -95,3 +95,8 @@ var totalProfit = finances.reduce((accumulator, object) => {
 }, 0);
     
 console.log(totalProfit);
+
+// variable to calculate number of months
+var numOfMonths = finances.length;
+
+console.log(numOfMonths);
