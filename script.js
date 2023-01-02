@@ -94,14 +94,16 @@ var totalProfit = finances.reduce((accumulator, object) => {
     return accumulator + object.profit;
 }, 0);
     
-console.log(totalProfit);
-
 // variable to calculate number of months
 var numOfMonths = finances.length;
-
-console.log(numOfMonths);
 
 // variable to calculate average profit made
 var averageProfit = totalProfit / numOfMonths;
 
-console.log(averageProfit.toFixed(2));
+// adding all information to console log
+
+console.log("Financial Analysis");
+console.log("-------------------");
+console.log("Total Months: " + numOfMonths);
+console.log("Total: $" + totalProfit);
+console.log("Average Change: $" + averageProfit.toFixed(2));
