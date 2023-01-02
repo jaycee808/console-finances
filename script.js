@@ -1,3 +1,5 @@
+// Array containing all financial information
+
 var finances = [
     {month: 'Jan-2010', profit: 867884},
     {month: 'Feb-2010', profit: 984655},
@@ -86,3 +88,10 @@ var finances = [
     {month: 'Jan-2017', profit: 138230},
     {month: 'Feb-2017', profit: 671099},
     ];
+
+// variable to calculate total profit
+var totalProfit = finances.reduce((accumulator, object) => {
+    return accumulator + object.profit;
+}, 0);
+    
+console.log(totalProfit);
