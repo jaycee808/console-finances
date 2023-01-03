@@ -106,3 +106,4 @@ console.log("-------------------");
 console.log("Total Months: " + numOfMonths);
 console.log("Total: $" + totalProfit);
 console.log("Average Change: $" + averageProfit.toFixed(2));
+
