@@ -2,7 +2,7 @@
 
 ## Overview
  
-
+This repository calculates the profits from a dataset. The code analysis the total profit made and the average change each month.
 
 ## Screenshot
 
